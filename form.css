@@ -1,0 +1,87 @@
+
+#newTicket{
+	z-index: -1;
+	position: relative;
+}
+.fit-image{
+	width: 100%;
+	object-fit: cover;
+}
+*{
+	font-family: 'Nunito', sans-serif;
+}
+.leftDiv{
+	padding: 0;
+}
+.rightDiv{
+	background: #fff;
+	padding: 0;
+	margin: 0;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#rightDiv form{
+	width: 50%;
+}
+#rightDiv .title{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 2rem;
+}
+#rightDiv form{
+	margin: 2rem 0;
+}
+#rightDiv div{
+	margin: 0.7rem 0;
+	text-align: center;
+}
+#rightDiv select{
+	padding: 0 1.8rem;
+}
+#rightDiv div input, textarea,select {
+	border: none;
+	border-bottom: 10px solid #aaa;
+	border-radius: 0.1em;
+	transition-property: width;
+	transition: all 0.5s ease;
+	width: 100%;
+	height: auto;
+	outline: none;
+}
+#rightDiv textarea{
+	resize: horizontal;
+}
+
+
+#rightDiv option{
+	background: #ddd;
+	text-align: center;
+}
+#rightDiv button{
+	padding: 0.5em;
+	background: #ecbe45;
+	border: 1px solid #ecbe45;
+	border-radius: 0.7em;
+	transition: 0.3s;
+}
+#rightDiv button:hover{
+	background: #419de6;
+	border: 1px solid #419de6;
+	color: white;
+}
+
+
+
+
+#rightDiv div input:focus,textarea:focus{
+	border-bottom: 2px solid #ecbe45;
+	outline: none;
+}
+#rightDiv div select:focus{
+	border-bottom: 2px solid #ecbe45;
+	outline: none;
+}

@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    text-align: center;
+
+}
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+
+}
+header{
+    height: 100px;
+    background: hsl(204, 97%, 46%);
+    width: 100%;
+    z-index: 12;
+    position: fixed;
+
+}
+.logo{
+    width: 30%;
+    float: left;
+    line-height: 100px;
+}
+
+
+.logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: bignoodletitling;
+    color: #fff;
+    letter-spacing: 5px;
+}
+nav{
+    float: right;
+    line-height: 100px;
+}
+nav a{
+    text-decoration: none;
+    font-family: bignoodletitling;
+    letter-spacing: 4px;
+    font-size: 20px;
+    margin: 0 10px;
+    color: #fff;
+
+}
+.banner-area{
+    width: 100%;
+    height: 1000px;
+    position: fixed;
+    top: 100px;
+    background-image: url(https://assets.entrepreneur.com/content/3x2/2000/20180315194714-GettyImages-862545030.jpeg);
+    -webkit-background-size: cover;
+    background-size:cover;
+    background-position: center center;
+
+}
+.banner-area h2{
+    padding-top: 8%;
+    font-size: 70px;
+    font-family: poppins;
+    text-transform: uppercase;
+    color: #fff;
+
+
+}
+.content-area{
+    width: 100%;
+    position: relative;
+    top: 450px;
+    background: #ffffff;
+    height: 800px;
+    
+}
+.content-area.avatar {
+    vertical-align: right;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+.content-area h2{
+    font-family: Akromin;
+    letter-spacing: 4px;
+    padding-top: 30px;
+    font-size: 30px;
+    margin: 0;
+}
+.content-area p{
+    padding:2% 0;
+    
+    line-height: 50px;
+    font-size: 30px;
+}
+.footer{
+    text-align: center;
+    background-color: #0f41e7;
+    color: #fff;
+    padding: 5px;
+    width: 100%;
+}
